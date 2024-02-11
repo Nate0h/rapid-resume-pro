@@ -1,7 +1,7 @@
-# React Resume Pro 
+# Rapid Resume Pro 
+Allows users to dynamically create resume with dynamic template.
 
-
-[Live Site](https://rapidresumepro.netlify.app)
+[Rapid Resume Pro](https://rapidresumepro.netlify.app)
 
 ### Built with
 
