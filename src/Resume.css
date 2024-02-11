@@ -1,0 +1,95 @@
+.displayResume {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  background-color: white;
+  color: black;
+  min-height: 100vh;
+  box-shadow: rgba(50, 50, 93, 0.1) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.25) 0px 8px 16px -8px;
+  position: sticky;
+}
+
+.header {
+  background-color: rgb(32, 20, 91);
+  color: white;
+}
+
+h2 {
+  color: rgb(32, 20, 91);
+}
+
+.contactDetails {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+}
+
+img {
+  width: 30px;
+  height: auto;
+  margin: 0.5em;
+}
+span {
+  text-align: center;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionHeader {
+  background-color: rgb(224, 225, 243);
+  color: rgb(32, 20, 91);
+  margin-right: 1.3em;
+  margin-left: 1.3em;
+  padding: 0.2em;
+  border-radius: 5px;
+}
+
+.aboutMeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutMeText {
+  font-style: italic;
+  text-align: center;
+  max-width: 600px;
+  word-break: break-all;
+}
+
+.educationContainer,
+.experienceContainer {
+  display: flex;
+  text-align: left;
+  padding-left: 15px;
+  margin-left: 1.5em;
+  margin-top: 0.5em;
+  min-width: 250px;
+  gap: 30px;
+  margin-bottom: 24px;
+  line-height: 1.5em;
+}
+
+.experienceContainer {
+  max-width: 600px;
+  word-break: break-all;
+}
+
+.skill {
+  padding: 5px;
+  color: rgb(32, 20, 91);
+  border: 2px solid rgb(32, 20, 91);
+  background-color: rgb(224, 225, 243);
+  border-radius: 15px;
+}
+
+.skillSection {
+  display: grid;
+  gap: 15px;
+  margin: 1em;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
